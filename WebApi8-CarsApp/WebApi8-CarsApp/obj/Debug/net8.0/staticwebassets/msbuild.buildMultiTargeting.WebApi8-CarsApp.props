@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebApi8-CarsApp.props" />
+</Project>
