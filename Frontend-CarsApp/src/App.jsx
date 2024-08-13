@@ -1,9 +1,14 @@
 import "./App.css";
-
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Login from "./Components/Login/Login";
 function App() {
     return (
-        <div>
-            <h1>Car App</h1>
+        <div className="App">
+            <BrowserRouter>
+              <Routes>
+                <Route path="/login/*" element={<Login />} /> 
+              </Routes>
+            </BrowserRouter>
         </div>
     );
 }

@@ -1,0 +1,30 @@
+.section {
+    min-height: 100dvh;
+    background-color: #F1F1F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.container {
+    background-color: white;
+    border: 2px solid #EBEBEB;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    width: 1110px;
+    height: 650px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.container::after{
+    display: block;
+    content: '';
+    background-image: url(../../Assets/img/carro-login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
