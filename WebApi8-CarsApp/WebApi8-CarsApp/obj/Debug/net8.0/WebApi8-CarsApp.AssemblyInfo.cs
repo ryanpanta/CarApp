@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApi8-CarsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9adae0f7cc174175f1bfdbd4021b0b21c00c3ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e90d73a5ac03b389e7d46b5c3f51968dc066af6")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApi8-CarsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApi8-CarsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

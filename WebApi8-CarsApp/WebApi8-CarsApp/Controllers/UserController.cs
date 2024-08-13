@@ -25,11 +25,25 @@ namespace WebApi8_CarsApp.Controllers
             return Ok(users);
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ResponseModel<UserModel>>> GetById(Guid id)
+        {
+            var user = await _userInterface.GetById(id);
+            return Ok(user);
+        }
+
         [HttpPost]
         public async Task<ActionResult<ResponseModel<UserModel>>> Register([FromBody] UserRegisterDTO userRegister)
         {
             var car = await _userInterface.Register(userRegister);
             return Ok(car);
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult<ResponseModel<UserModel>>> Delete(Guid id)
+        {
+            var user = await _userInterface.Delete(id);
+            return Ok(user);
         }
     }
 }

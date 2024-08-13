@@ -14,9 +14,33 @@ namespace WebApi8_CarsApp.Services.User
             _context = context;
         }
 
-        public Task<ResponseModel<UserModel>> Delete(Guid id)
+        public async Task<ResponseModel<UserModel>> Delete(Guid id)
         {
-            throw new NotImplementedException();
+            ResponseModel<UserModel> response = new ResponseModel<UserModel>();
+            try
+            {
+                var user = await _context.Usuarios.FirstOrDefaultAsync(u => u.Id == id);
+
+                if (user is null)
+                {
+                    response.Mensagem = "Usuário não encontrado.";
+                    return response;
+                }
+
+                _context.Remove(user);
+                await _context.SaveChangesAsync();
+
+                response.Dados = user;
+                response.Mensagem = "Usuário encontrado com sucesso!";
+                return response;
+
+            }
+            catch (Exception ex)
+            {
+                response.Mensagem = ex.Message;
+                response.Status = false;
+                return response;
+            }
         }
 
         public async Task<ResponseModel<List<UserModel>>> GetAll()
@@ -24,9 +48,9 @@ namespace WebApi8_CarsApp.Services.User
             ResponseModel<List<UserModel>> response = new ResponseModel<List<UserModel>>();
             try
             {
-                var cars = await _context.Usuarios.ToListAsync();
+                var users = await _context.Usuarios.ToListAsync();
 
-                response.Dados = cars;
+                response.Dados = users;
                 response.Mensagem = "Todos os usuários foram listados com sucesso!";
                 return response;
 
@@ -39,9 +63,30 @@ namespace WebApi8_CarsApp.Services.User
             }
         }
 
-        public Task<ResponseModel<UserModel>> GetById(Guid id)
+        public async Task<ResponseModel<UserModel>> GetById(Guid id)
         {
-            throw new NotImplementedException();
+            ResponseModel<UserModel> response = new ResponseModel<UserModel>();
+            try
+            {
+                var user = await _context.Usuarios.FirstOrDefaultAsync(u => u.Id == id);
+
+                if(user is null)
+                {
+                    response.Mensagem = "Usuário não encontrado.";
+                    return response;
+                }
+
+                response.Dados = user;
+                response.Mensagem = "Usuário encontrado com sucesso!";
+                return response;
+
+            }
+            catch (Exception ex)
+            {
+                response.Mensagem = ex.Message;
+                response.Status = false;
+                return response;
+            }
         }
 
         public async Task<ResponseModel<UserModel>> Register(UserRegisterDTO userRegister)

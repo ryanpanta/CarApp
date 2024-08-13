@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ryanr\\Documents\\codes\\WebApi8-CarsApp\\WebApi8-CarsApp\\WebApi8-CarsApp.csproj": {}
+    "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\WebApi8-CarsApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ryanr\\Documents\\codes\\WebApi8-CarsApp\\WebApi8-CarsApp\\WebApi8-CarsApp.csproj": {
+    "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\WebApi8-CarsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryanr\\Documents\\codes\\WebApi8-CarsApp\\WebApi8-CarsApp\\WebApi8-CarsApp.csproj",
+        "projectUniqueName": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\WebApi8-CarsApp.csproj",
         "projectName": "WebApi8-CarsApp",
-        "projectPath": "C:\\Users\\ryanr\\Documents\\codes\\WebApi8-CarsApp\\WebApi8-CarsApp\\WebApi8-CarsApp.csproj",
+        "projectPath": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\WebApi8-CarsApp.csproj",
         "packagesPath": "C:\\Users\\ryanr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryanr\\Documents\\codes\\WebApi8-CarsApp\\WebApi8-CarsApp\\obj\\",
+        "outputPath": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ryanr\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using WebApi8_CarsApp.Data;
 using WebApi8_CarsApp.Services.Car;
+using WebApi8_CarsApp.Services.Maker;
 using WebApi8_CarsApp.Services.User;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICarInterface, CarService>();
 builder.Services.AddScoped<IUserInterface, UserService>();
+builder.Services.AddScoped<IMakerInterface, MakerService>();
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
