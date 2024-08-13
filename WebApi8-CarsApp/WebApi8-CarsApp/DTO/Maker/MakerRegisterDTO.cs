@@ -2,5 +2,6 @@
 {
     public class MakerRegisterDTO
     {
+        public string Nome { get; set; } = string.Empty;
     }
 }
