@@ -132,6 +132,7 @@ namespace WebApi8_CarsApp.Services.User
                 }
 
                 httpContext.Session.SetString("UserId", user.Id.ToString());
+                Console.WriteLine($"UserId stored in session: {httpContext.Session.GetString("UserId")}");
                 httpContext.Session.SetString("UserName", user.Nome);
 
                 response.Dados = user;

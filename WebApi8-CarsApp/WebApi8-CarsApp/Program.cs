@@ -9,16 +9,32 @@ using WebApi8_CarsApp.Services.User;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//builder.Services.AddControllers().AddJsonOptions(options =>
-//{
-//    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
-//});
+// Configure CORS to allow requests from the frontend
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigins", builder =>
+    {
+        builder.WithOrigins("http://localhost:5173") 
+               .AllowAnyMethod()
+               .AllowAnyHeader()
+               .AllowCredentials(); 
+    });
+});
+
+// Adiciona o serviço de sessão
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Tempo de expiração da sessão
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+    options.Cookie.SameSite = SameSiteMode.None; // Permite cookies entre sites
+    options.Cookie.SecurePolicy = CookieSecurePolicy.None; // Apenas HTTPS
+});
 
 builder.Services.AddScoped<ICarInterface, CarService>();
 builder.Services.AddScoped<IUserInterface, UserService>();
@@ -37,6 +53,12 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Use CORS
+app.UseCors("AllowSpecificOrigins");
+
+// Adiciona o middleware de sessão
+app.UseSession();
 
 app.UseAuthorization();
 

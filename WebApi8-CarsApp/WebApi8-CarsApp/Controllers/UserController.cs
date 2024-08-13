@@ -47,9 +47,9 @@ namespace WebApi8_CarsApp.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult<ResponseModel<UserModel>>> Login(string email, string password)
+        public async Task<ActionResult<ResponseModel<UserModel>>> Login([FromBody] UserLoginDTO userLogin)
         {
-            var user = await _userInterface.Login(email, password, HttpContext);
+            var user = await _userInterface.Login(userLogin.Email, userLogin.Password, HttpContext);
             return Ok(user);
         }
     }
