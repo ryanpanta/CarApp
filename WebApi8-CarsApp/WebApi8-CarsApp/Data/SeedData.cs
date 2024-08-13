@@ -51,6 +51,18 @@ namespace WebApi8_CarsApp.Data
                 new MakerModel { Id = 41, Nome = "Volkswagen" },
                 new MakerModel { Id = 42, Nome = "Volvo" }
             );
+
+            modelBuilder.Entity<CarTypeModel>().HasData(
+                new CarTypeModel { Id = 1, Nome = "Hatch" },
+                new CarTypeModel { Id = 2, Nome = "Sedan" },
+                new CarTypeModel { Id = 3, Nome = "SUV" },
+                new CarTypeModel { Id = 4, Nome = "Picape" },
+                new CarTypeModel { Id = 5, Nome = "Crossover" },
+                new CarTypeModel { Id = 6, Nome = "Perua" },
+                new CarTypeModel { Id = 7, Nome = "Minivan" },
+                new CarTypeModel { Id = 8, Nome = "Esportivo" },
+                new CarTypeModel { Id = 9, Nome = "Furgão" }
+            );
         }
     }
 }

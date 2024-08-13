@@ -94,18 +94,48 @@ namespace WebApi8_CarsApp.Services.User
             ResponseModel<UserModel> response = new ResponseModel<UserModel>();
             try
             {
-                var car = new UserModel()
+                var user = new UserModel()
                 {
                     Nome = userRegister.Nome,
                     Email = userRegister.Email,
                     Senha = userRegister.Senha,
                 };
 
-                _context.Add(car);
+                _context.Add(user);
                 await _context.SaveChangesAsync();
 
-                response.Dados = car;
+                response.Dados = user;
                 response.Mensagem = "Usuário cadastrado com sucesso!";
+                return response;
+
+            }
+            catch (Exception ex)
+            {
+                response.Mensagem = ex.Message;
+                response.Status = false;
+                return response;
+            }
+        }
+
+        public async Task<ResponseModel<UserModel>> Login(string email, string password, HttpContext httpContext)
+        {
+            ResponseModel<UserModel> response = new ResponseModel<UserModel>();
+
+            try
+            {
+                var user = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == email && u.Senha == password); 
+
+                if (user is null)
+                {
+                    response.Mensagem = "Usuário não cadastrado!";
+                    return response;
+                }
+
+                httpContext.Session.SetString("UserId", user.Id.ToString());
+                httpContext.Session.SetString("UserName", user.Nome);
+
+                response.Dados = user;
+                response.Mensagem = "Login realizado com sucesso!";
                 return response;
 
             }

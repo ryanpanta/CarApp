@@ -45,5 +45,12 @@ namespace WebApi8_CarsApp.Controllers
             var user = await _userInterface.Delete(id);
             return Ok(user);
         }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<ResponseModel<UserModel>>> Login(string email, string password)
+        {
+            var user = await _userInterface.Login(email, password, HttpContext);
+            return Ok(user);
+        }
     }
 }
