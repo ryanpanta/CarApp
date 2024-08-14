@@ -4,6 +4,7 @@ import Login from "./Components/Login/Login";
 import ProtectedRoute from "./Components/Helper/ProtectedRoute";
 import Cadastro from "./Components/Cadastro";
 import Home from "./Components/Home";
+import List from "./Components/Car/List";
 function App() {
     return (
         <div className="App">
@@ -11,7 +12,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/login/*" element={<Login />} /> 
-                <Route path="cadastro" element={<ProtectedRoute><Cadastro/></ProtectedRoute>} />
+                <Route path="/carros/lista" element={<List />} />
               </Routes>
             </BrowserRouter>
         </div>

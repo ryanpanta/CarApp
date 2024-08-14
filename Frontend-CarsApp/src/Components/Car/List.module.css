@@ -1,0 +1,24 @@
+.section h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 3rem;
+    color: #383838;
+}
+
+.tableContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+td, th{
+    font-size: 1.8rem !important;
+}
+
+.pagination p {
+    font-size: 1.6rem !important;
+}
+
+.pagination div {
+    font-size: 1.4rem !important; 
+}
+
