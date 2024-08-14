@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .login button {
+    background-color: transparent;
+} */
+
+.header svg {
+    filter: invert(1);
+}

@@ -3,9 +3,12 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import styles from "./LoginForm.module.css";
 import Button from "../Form/Button";
+import { Link, useNavigate } from "react-router-dom";
 function LoginForm() {
     const [email, setEmail] = React.useState("");
     const [password, setPassword] = React.useState("");
+
+    const navigate = useNavigate();
 
     async function handleSubmit(event){
         event.preventDefault()
@@ -17,12 +20,12 @@ function LoginForm() {
             credentials: 'include',
             body: JSON.stringify({email, password})
         })
-        console.log(response);
+        if(response.ok) navigate('/cadastro')
         const data = await response.json();
         console.log(data);
     }
     return (
-        <div className={styles.login}>
+        <div className={`animeLeft ${styles.login}`}>
             <h2>Log in</h2>
             <p>Digite o seu e-mail e senha para entrar.</p>
             <form onSubmit={handleSubmit}>
@@ -50,7 +53,7 @@ function LoginForm() {
                 <span>ou</span>
                 <span className={styles.line} />
             </div>
-            <Button text="Fazer cadastro" variant="secondary" />
+            <Link to={"./cadastro"}><Button text="Fazer cadastro" variant="secondary" /></Link>
         </div>
     );
 }

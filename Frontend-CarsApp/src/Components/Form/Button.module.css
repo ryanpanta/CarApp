@@ -2,6 +2,8 @@
     font-size: 1.6rem;
     outline: none;
     padding: 10px 20px;
+    width: 100%;
+    font-weight: 600;
 }
 
 .primary {
