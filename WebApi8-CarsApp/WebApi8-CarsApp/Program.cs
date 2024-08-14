@@ -30,10 +30,10 @@ builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30); // Tempo de expiração da sessão
-    options.Cookie.HttpOnly = true;
+    options.Cookie.HttpOnly = false;
     options.Cookie.IsEssential = true;
     options.Cookie.SameSite = SameSiteMode.None; // Permite cookies entre sites
-    options.Cookie.SecurePolicy = CookieSecurePolicy.None; // Apenas HTTPS
+    options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Apenas HTTPS
 });
 
 builder.Services.AddScoped<ICarInterface, CarService>();
