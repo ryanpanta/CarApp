@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\services\\user\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\services\\user\\iuserinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\dto\\maker\\makerregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\dto\\maker\\makerregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\services\\car\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\services\\car\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\dto\\user\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\dto\\user\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\dto\\user\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\controllers\\cartypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\controllers\\cartypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\services\\cartype\\cartypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\dto\\cartype\\cartypeeditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\dto\\maker\\makerregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\dto\\maker\\makerregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\dto\\maker\\makereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\dto\\maker\\makereditdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\services\\car\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|solutionrelative:webapi8-carsapp\\services\\car\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE2C85F3-B7E2-4E59-A2B8-57A79233C202}|WebApi8-CarsApp\\WebApi8-CarsApp.csproj|c:\\users\\ryanr\\documents\\codes\\carapp\\webapi8-carsapp\\webapi8-carsapp\\models\\makermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,20 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CarTypeController.cs",
-              "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Controllers\\CarTypeController.cs",
-              "RelativeDocumentMoniker": "WebApi8-CarsApp\\Controllers\\CarTypeController.cs",
-              "ToolTip": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Controllers\\CarTypeController.cs",
-              "RelativeToolTip": "WebApi8-CarsApp\\Controllers\\CarTypeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:39:02.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ICarTypeInterface.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Services\\CarType\\ICarTypeInterface.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Services\\CarType\\ICarTypeInterface.cs",
@@ -171,12 +170,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\Services\\CarType\\ICarTypeInterface.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:31:12.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:31:12.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Data\\SeedData.cs",
@@ -184,12 +182,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\Data\\SeedData.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAkwDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:11:01.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:11:01.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "CarService.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Services\\Car\\CarService.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Services\\Car\\CarService.cs",
@@ -197,12 +194,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\Services\\Car\\CarService.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAwwFAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T03:24:13.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T03:24:13.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "MakerRegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\DTO\\Maker\\MakerRegisterDTO.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\DTO\\Maker\\MakerRegisterDTO.cs",
@@ -210,12 +206,84 @@
               "RelativeToolTip": "WebApi8-CarsApp\\DTO\\Maker\\MakerRegisterDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T03:16:29.429Z",
+              "WhenOpened": "2024-08-13T03:16:29.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi8-CarsApp\\Program.cs",
+              "ToolTip": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Program.cs*",
+              "RelativeToolTip": "WebApi8-CarsApp\\Program.cs*",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:12:23.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IUserInterface.cs",
+              "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Services\\User\\IUserInterface.cs",
+              "RelativeDocumentMoniker": "WebApi8-CarsApp\\Services\\User\\IUserInterface.cs",
+              "ToolTip": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Services\\User\\IUserInterface.cs",
+              "RelativeToolTip": "WebApi8-CarsApp\\Services\\User\\IUserInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T20:24:55.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Services\\User\\UserService.cs",
+              "RelativeDocumentMoniker": "WebApi8-CarsApp\\Services\\User\\UserService.cs",
+              "ToolTip": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Services\\User\\UserService.cs",
+              "RelativeToolTip": "WebApi8-CarsApp\\Services\\User\\UserService.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAmwJAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:21:35.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApi8-CarsApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApi8-CarsApp\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwDcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T20:58:18.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Controllers\\CarTypeController.cs",
+              "RelativeDocumentMoniker": "WebApi8-CarsApp\\Controllers\\CarTypeController.cs",
+              "ToolTip": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Controllers\\CarTypeController.cs",
+              "RelativeToolTip": "WebApi8-CarsApp\\Controllers\\CarTypeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T14:39:02.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\DTO\\User\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "WebApi8-CarsApp\\DTO\\User\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\DTO\\User\\UserLoginDTO.cs",
+              "RelativeToolTip": "WebApi8-CarsApp\\DTO\\User\\UserLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T20:21:10.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UserRegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\DTO\\User\\UserRegisterDTO.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\DTO\\User\\UserRegisterDTO.cs",
@@ -223,38 +291,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\DTO\\User\\UserRegisterDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T20:29:51.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T20:29:51.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUserInterface.cs",
-              "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Services\\User\\IUserInterface.cs",
-              "RelativeDocumentMoniker": "WebApi8-CarsApp\\Services\\User\\IUserInterface.cs",
-              "ToolTip": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Services\\User\\IUserInterface.cs",
-              "RelativeToolTip": "WebApi8-CarsApp\\Services\\User\\IUserInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T20:24:55.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebApi8-CarsApp\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebApi8-CarsApp\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAIwDIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T20:58:18.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "CarTypeEditDTO.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\DTO\\CarType\\CarTypeEditDTO.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\DTO\\CarType\\CarTypeEditDTO.cs",
@@ -262,12 +303,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\DTO\\CarType\\CarTypeEditDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:32:27.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:32:27.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "CarTypeService.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Services\\CarType\\CarTypeService.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Services\\CarType\\CarTypeService.cs",
@@ -275,12 +315,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\Services\\CarType\\CarTypeService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:31:03.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:31:03.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "CarTypeRegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\DTO\\CarType\\CarTypeRegisterDTO.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\DTO\\CarType\\CarTypeRegisterDTO.cs",
@@ -288,12 +327,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\DTO\\CarType\\CarTypeRegisterDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T14:32:44.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T14:32:44.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "MakerEditDTO.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\DTO\\Maker\\MakerEditDTO.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\DTO\\Maker\\MakerEditDTO.cs",
@@ -301,12 +339,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\DTO\\Maker\\MakerEditDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T03:17:38.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T03:17:38.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "IMakerInterface.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Services\\Maker\\IMakerInterface.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Services\\Maker\\IMakerInterface.cs",
@@ -314,12 +351,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\Services\\Maker\\IMakerInterface.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T03:13:16.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T03:13:16.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "MakerModel.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Models\\MakerModel.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Models\\MakerModel.cs",
@@ -327,12 +363,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\Models\\MakerModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T03:21:52.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T03:21:52.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Data\\AppDbContext.cs",
@@ -340,12 +375,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T03:29:05.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T03:29:05.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "CarModel.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Models\\CarModel.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Models\\CarModel.cs",
@@ -357,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "CarEditDTO.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\DTO\\Car\\CarEditDTO.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\DTO\\Car\\CarEditDTO.cs",
@@ -365,12 +399,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\DTO\\Car\\CarEditDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T13:12:57.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T13:12:57.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "CarRegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\DTO\\Car\\CarRegisterDTO.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\DTO\\Car\\CarRegisterDTO.cs",
@@ -382,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "CarController.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Controllers\\CarController.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Controllers\\CarController.cs",
@@ -390,12 +423,11 @@
               "RelativeToolTip": "WebApi8-CarsApp\\Controllers\\CarController.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwAwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T23:31:13.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T23:31:13.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Models\\UserModel.cs",
@@ -407,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\appsettings.json",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\appsettings.json",
@@ -419,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "ResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Models\\ResponseModel.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Models\\ResponseModel.cs",
@@ -431,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "CarTypeModel.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Models\\CarTypeModel.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Models\\CarTypeModel.cs",
@@ -443,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "20240812002846_FixTabelaTipos.cs",
               "DocumentMoniker": "C:\\Users\\ryanr\\Documents\\codes\\CarApp\\WebApi8-CarsApp\\WebApi8-CarsApp\\Migrations\\20240812002846_FixTabelaTipos.cs",
               "RelativeDocumentMoniker": "WebApi8-CarsApp\\Migrations\\20240812002846_FixTabelaTipos.cs",
