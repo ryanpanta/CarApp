@@ -5,8 +5,7 @@ import Button from "../Form/Button";
 import { Link, useNavigate } from "react-router-dom";
 import useForm from "../../Hooks/useForm";
 import Loading from "../Helper/Loading";
-function LoginCreate() {
-    const [loading, setLoading] = React.useState(true);
+function LoginCreate({setLoading}) {
     const nome = useForm("");
     const email = useForm("email");
     const senha = useForm("senha");
@@ -16,7 +15,7 @@ function LoginCreate() {
     async function handleSubmit(event) {
         event.preventDefault();
         try {
-            setLoading(true)
+            setLoading(true);
             const userData = {
                 nome: nome.value,
                 email: email.value,
@@ -36,13 +35,13 @@ function LoginCreate() {
         } catch (error) {
             console.error("Erro ao criar usuário:", error);
         } finally {
-            setLoading(false)
+            setLoading(false);
         }
     }
 
     return (
         <div className={`animeLeft ${styles.cadastro}`}>
-            {loading && <Loading />}
+            {/* {loading && <Loading />} */}
             <h2>Cadastre-se</h2>
             <p style={{ marginBottom: "20px" }}>
                 Digite o seu e-mail e senha para cadastrar.

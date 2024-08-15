@@ -5,8 +5,12 @@ import styles from "./LoginForm.module.css";
 import Button from "../Form/Button";
 import { Link, useNavigate } from "react-router-dom";
 import Loading from "../Helper/Loading";
-function LoginForm() {
-    const [loading, setLoading] = React.useState(false);
+import { Navigate } from "react-router-dom";
+function LoginForm({ setLoading }) {
+
+    
+
+
     const [email, setEmail] = React.useState("");
     const [password, setPassword] = React.useState("");
 
@@ -38,7 +42,6 @@ function LoginForm() {
     }
     return (
         <div className={`animeLeft ${styles.login}`}>
-            {loading && <Loading />}
             <h2>Log in</h2>
             <p>Digite o seu e-mail e senha para entrar.</p>
             <form onSubmit={handleSubmit}>

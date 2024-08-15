@@ -1,3 +1,7 @@
+.section {
+    display: grid;
+}
+
 .cadastro{
     display: flex;
     flex-direction: column;
