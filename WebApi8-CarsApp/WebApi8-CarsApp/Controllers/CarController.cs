@@ -17,9 +17,9 @@ namespace WebApi8_CarsApp.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<ResponseModel<List<CarModel>>>> GetAll()
+        public async Task<ActionResult<ResponseModel<List<CarModel>>>> GetAll(int page, int pageSize)
         {
-            var cars = await _carInterface.GetAll();
+            var cars = await _carInterface.GetAll(page, pageSize);
             return Ok(cars);
         }
 

@@ -81,18 +81,27 @@ namespace WebApi8_CarsApp.Services.Car
             }
         }
 
-        public async Task<ResponseModel<List<CarModel>>> GetAll()
+        public async Task<ResponseModel<List<CarModel>>> GetAll(int page = 0, int pageSize = 10)
         {
             ResponseModel<List<CarModel>> response = new ResponseModel<List<CarModel>>(); 
             try
             {
-                var cars = await _context.Carros
+                var query = _context.Carros
                     .Include(c => c.Fabricante)
                     .Include(c => c.TipoVeiculo)
-                    .Include(c => c.Usuario)
+                    .Include(c => c.Usuario);
+
+                // Conta o total de itens antes de aplicar a paginação
+                var totalItems = await query.CountAsync();
+
+                var cars = await query
+                    .Skip(page * pageSize)
+                    .Take(pageSize)
                     .ToListAsync();
+                
 
                 response.Dados = cars;
+                response.TotalItems = totalItems;
                 response.Mensagem = "Todos os carros foram listados com sucesso!";
                 return response;
 
