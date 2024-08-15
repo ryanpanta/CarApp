@@ -2,32 +2,51 @@ import React from "react";
 import styles from "./LoginCreate.module.css";
 import TextField from "@mui/material/TextField";
 import Button from "../Form/Button";
-import {Link} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import useForm from "../../Hooks/useForm";
+import Loading from "../Helper/Loading";
 function LoginCreate() {
+    const [loading, setLoading] = React.useState(true);
     const nome = useForm("");
     const email = useForm("email");
     const senha = useForm("senha");
 
+    const navigate = useNavigate();
+
     async function handleSubmit(event) {
         event.preventDefault();
-        const response = await fetch("https://localhost:7017/api/User", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            credentials: "include",
-            body: JSON.stringify({ nome, email, senha }),
-        });
-        console.log(response);
-        const data = await response.json();
-        console.log(data);
+        try {
+            setLoading(true)
+            const userData = {
+                nome: nome.value,
+                email: email.value,
+                senha: senha.value,
+            };
+            const response = await fetch("https://localhost:7017/api/User", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                credentials: "include",
+                body: JSON.stringify(userData),
+            });
+            if (response.ok) navigate("/carros/lista");
+            const data = await response.json();
+            console.log(data);
+        } catch (error) {
+            console.error("Erro ao criar usuário:", error);
+        } finally {
+            setLoading(false)
+        }
     }
 
     return (
         <div className={`animeLeft ${styles.cadastro}`}>
+            {loading && <Loading />}
             <h2>Cadastre-se</h2>
-            <p style={{marginBottom: '20px'}}>Digite o seu e-mail e senha para cadastrar.</p>
+            <p style={{ marginBottom: "20px" }}>
+                Digite o seu e-mail e senha para cadastrar.
+            </p>
             <form onSubmit={handleSubmit}>
                 <TextField
                     id="outlined-basic"
@@ -66,7 +85,9 @@ function LoginCreate() {
                 <span>ou</span>
                 <span className={styles.line} />
             </div>
-            <Link to={"/login"}><Button text="Fazer login" variant="secondary" /></Link>
+            <Link to={"/login"}>
+                <Button text="Fazer login" variant="secondary" />
+            </Link>
         </div>
     );
 }

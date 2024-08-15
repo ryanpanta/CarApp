@@ -13,10 +13,10 @@ function HeaderUser() {
             <nav className={styles.nav}>
                 <ul>
                     <li>
-                        <Link>Carros</Link>
+                        <Link to="/carros/lista">Carros</Link>
                     </li>
                     <li>
-                        <Link>Cadastrar</Link>
+                        <Link to="/carros/cadastro">Cadastrar</Link>
                     </li>
                 </ul>
             </nav>
