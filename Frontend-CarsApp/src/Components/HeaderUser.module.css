@@ -19,10 +19,30 @@
 }
 
 .user {
+    cursor: pointer;
     display: flex;
     gap: 10px;
     align-items: center;
-    
+    position: relative;
+}
+
+.logout {
+    position: absolute;
+    left: -20px;
+    top: 30px;
+    background-color: white;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logout p:hover {
+    text-decoration: underline;
 }
 
 .header svg {

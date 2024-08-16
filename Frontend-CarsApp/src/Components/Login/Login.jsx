@@ -5,7 +5,10 @@ import LoginForm from "./LoginForm";
 import LoginCreate from "./LoginCreate";
 import Loading from "../Helper/Loading";
 import { Navigate } from "react-router-dom";
+
 function Login() {
+
+    
 
     const cookieExists = document.cookie.split(';').some((item) => item.trim().startsWith('.AspNetCore.Session='));
     if(cookieExists) return <Navigate to="/carros/lista" />

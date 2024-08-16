@@ -6,9 +6,10 @@ import Button from "../Form/Button";
 import { Link, useNavigate } from "react-router-dom";
 import Loading from "../Helper/Loading";
 import { Navigate } from "react-router-dom";
+import UserContext from "../../UserContext";
 function LoginForm({ setLoading }) {
 
-    
+    const { userLogin } = React.useContext(UserContext);
 
 
     const [email, setEmail] = React.useState("");
@@ -18,27 +19,8 @@ function LoginForm({ setLoading }) {
 
     async function handleSubmit(event) {
         event.preventDefault();
-        try {
-            setLoading(true);
-            const response = await fetch(
-                "https://localhost:7017/api/User/login",
-                {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                    credentials: "include",
-                    body: JSON.stringify({ email, password }),
-                }
-            );
-            if (response.ok) navigate("/carros/lista");
-        } catch (error) {
-            console.error("Erro ao fazer o login", error);
-        } finally {
-            setLoading(false);
-        }
-        const data = await response.json();
-        console.log(data);
+        await userLogin(email, password);
+        
     }
     return (
         <div className={`animeLeft ${styles.login}`}>

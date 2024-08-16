@@ -7,31 +7,34 @@ import List from "./Components/Car/List";
 import Register from "./Components/Car/Register";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { UserStorage } from "./UserContext";
 function App() {
     return (
         <div className="App">
             <ToastContainer />
             <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/login/*" element={<Login />} />
-                    <Route
-                        path="/carros/lista"
-                        element={
-                            <ProtectedRoute>
-                                <List />
-                            </ProtectedRoute>
-                        }
-                    />
-                    <Route
-                        path="/carros/cadastro"
-                        element={
-                            <ProtectedRoute>
-                                <Register />
-                            </ProtectedRoute>
-                        }
-                    />
-                </Routes>
+                <UserStorage>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/login/*" element={<Login />} />
+                        <Route
+                            path="/carros/lista"
+                            element={
+                                <ProtectedRoute>
+                                    <List />
+                                </ProtectedRoute>
+                            }
+                        />
+                        <Route
+                            path="/carros/cadastro"
+                            element={
+                                <ProtectedRoute>
+                                    <Register />
+                                </ProtectedRoute>
+                            }
+                        />
+                    </Routes>
+                </UserStorage>
             </BrowserRouter>
         </div>
     );

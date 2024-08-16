@@ -1,10 +1,10 @@
-
 .tableContainer {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-td, th{
+td,
+th {
     padding: 20px 30px !important;
     font-size: 1.8rem !important;
 }
@@ -26,7 +26,7 @@ table {
 }
 
 .pagination div {
-    font-size: 1.4rem !important; 
+    font-size: 1.4rem !important;
 }
 
 .pagination {
@@ -42,13 +42,16 @@ table {
     gap: 10px;
 }
 
-.actions {
-    display: flex !important;
-    gap: 20px !important;
-}
+
 
 .actions svg {
     cursor: pointer;
+    
+}
+
+.actions svg:first-child {
+    
+    margin-right: 20px !important;
 }
 
 .modal {

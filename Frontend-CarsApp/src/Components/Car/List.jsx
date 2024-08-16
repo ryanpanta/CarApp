@@ -266,12 +266,14 @@ function List() {
                                                 >
                                                     <Trash2
                                                         color="#f84343DD"
+                                                        size={20}
                                                         onClick={() => {
                                                             handleDelete(index);
                                                         }}
                                                     />{" "}
                                                     <Pencil
                                                         color="#4b8affa2"
+                                                        size={20}
                                                         onClick={() => {
                                                             handleEdit(index);
                                                         }}
@@ -319,13 +321,14 @@ function List() {
                         maker={maker}
                         setMaker={setMaker}
                         handleEditSubmit={handleEditSubmit}
+                        setOpenModal={setOpenModal}
                         carType={carType}
                         setCarType={setCarType}
                         ano={ano}
                         setAno={setAno}
                         makersData={makersData}
                         carTypesData={carTypesData}
-                        onClose={() => setOpenModal(false)}
+                        
                     />
                 )}
             </section>
@@ -340,12 +343,13 @@ function ModalEdit({
     setMaker,
     carType,
     setCarType,
+    setOpenModal,
     ano,
     setAno,
     makersData,
     carTypesData,
     handleEditSubmit,
-    onClose,
+    
 }) {
     const modalRef = React.useRef(null);
     return (

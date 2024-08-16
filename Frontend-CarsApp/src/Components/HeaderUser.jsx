@@ -1,12 +1,17 @@
 import React from "react";
 import CarApp from "../Assets/CarApp.svg?react";
-import { UserRound } from "lucide-react";
+import { UserRound, LogOut } from "lucide-react";
 import styles from "./HeaderUser.module.css";
+
 import { Link } from "react-router-dom";
+import UserContext from "../UserContext";
 function HeaderUser() {
+    const {userLogout} = React.useContext(UserContext);
+    const [logout, setLogout] = React.useState(false);
+    const nome = JSON.parse(localStorage.getItem("userData"));
     return (
         <header className={styles.header}>
-            <div style={{width: '150px'}}>
+            <div style={{ width: "150px" }}>
                 <Link>
                     <CarApp />
                 </Link>
@@ -22,9 +27,19 @@ function HeaderUser() {
                     </li>
                 </ul>
             </nav>
-            <div className={styles.user} style={{width: '150px'}}>
+            <div
+                className={styles.user}
+                onClick={() => setLogout(!logout)}
+                style={{ width: "150px" }}
+            >
+                {logout && (
+                    <div className={styles.logout} onClick={userLogout}>
+                            <LogOut size={20} />
+                            <p>Sair</p>
+                    </div>
+                )}
                 <UserRound size={20} />
-                <p>Ryan</p>
+                <p>{nome.dados.nome}</p>
             </div>
         </header>
     );

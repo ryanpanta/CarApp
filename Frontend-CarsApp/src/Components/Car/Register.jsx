@@ -6,7 +6,7 @@ import Autocomplete from "@mui/material/Autocomplete";
 import useForm from "../../Hooks/useForm";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Button from "../Form/Button";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 function Register() {
     const modelo = useForm("");
