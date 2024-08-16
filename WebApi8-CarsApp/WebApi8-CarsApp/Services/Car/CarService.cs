@@ -91,7 +91,7 @@ namespace WebApi8_CarsApp.Services.Car
                     .Include(c => c.TipoVeiculo)
                     .Include(c => c.Usuario);
 
-                // Conta o total de itens antes de aplicar a paginação
+                
                 var totalItems = await query.CountAsync();
 
                 var cars = await query
