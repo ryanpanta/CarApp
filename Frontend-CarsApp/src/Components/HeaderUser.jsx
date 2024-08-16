@@ -6,9 +6,11 @@ import { Link } from "react-router-dom";
 function HeaderUser() {
     return (
         <header className={styles.header}>
-            <Link>
-                <CarApp />
-            </Link>
+            <div style={{width: '150px'}}>
+                <Link>
+                    <CarApp />
+                </Link>
+            </div>
 
             <nav className={styles.nav}>
                 <ul>
@@ -20,7 +22,7 @@ function HeaderUser() {
                     </li>
                 </ul>
             </nav>
-            <div className={styles.user}>
+            <div className={styles.user} style={{width: '150px'}}>
                 <UserRound size={20} />
                 <p>Ryan</p>
             </div>

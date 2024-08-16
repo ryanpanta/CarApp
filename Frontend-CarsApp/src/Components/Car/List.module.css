@@ -50,3 +50,29 @@ table {
 .actions svg {
     cursor: pointer;
 }
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate(50%, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100dvh;
+    width: 100vw;
+}
+
+.wrapperModal {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    display: grid;
+    gap: 20px;
+}
+
+.wrapperModal form {
+    display: grid;
+    gap: 20px;
+}

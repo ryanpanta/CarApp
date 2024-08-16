@@ -24,7 +24,7 @@ function Register() {
                 );
                 const data = await response.json();
                 setMakers(data.dados);
-                console.log(data.dados);
+                
             } catch (error) {
                 console.error("Erro ao buscar os fabricantes:", error);
             }
@@ -37,7 +37,7 @@ function Register() {
                 );
                 const data = await response.json();
                 setCarTypes(data.dados);
-                console.log(data.dados);
+                
             } catch (error) {
                 console.error("Erro ao buscar os fabricantes:", error);
             }
