@@ -1,6 +1,6 @@
 .section {
     min-height: 100dvh;
-    background-color: #F1F1F3;
+    background-color: #f1f1f3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +9,7 @@
 
 .container {
     background-color: white;
-    border: 2px solid #EBEBEB;
+    border: 2px solid #ebebeb;
     box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.03);
     border-radius: 20px;
     width: 1110px;
@@ -20,12 +20,25 @@
     position: relative;
 }
 
-.container::after{
+.container::after {
     display: block;
-    content: '';
+    content: "";
     background-image: url(../../Assets/img/carro-login.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 20px;
+}
+
+@media (max-width: 850px) {
+    .container {
+        padding: 80px 0;
+        width: 100%;
+        height: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .container::after {
+        display: none;
+    }
 }

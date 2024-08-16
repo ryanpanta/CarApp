@@ -1,7 +1,10 @@
 .home {
     height: 100dvh;
-    background: url(../Assets/img/carro-home.jpg) no-repeat center center/cover;
+    background: url(../Assets/img/carro-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: 100% 10%;
+    
 }
 
 .content {
@@ -32,4 +35,22 @@
     font-size: 1.8rem;
     max-width: 50ch;
     
+}
+
+@media (max-width: 950px) {
+    .home{
+        background-position: center;
+    }
+
+    .content {
+        margin-left: 30px;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content p {
+        font-size: 1.4rem;
+    }
 }

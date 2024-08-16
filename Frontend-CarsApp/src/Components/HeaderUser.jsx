@@ -11,7 +11,7 @@ function HeaderUser() {
     const nome = JSON.parse(localStorage.getItem("userData"));
     return (
         <header className={styles.header}>
-            <div style={{ width: "150px" }}>
+            <div /* style={{ width: "150px" }} */>
                 <Link>
                     <CarApp />
                 </Link>
@@ -30,7 +30,7 @@ function HeaderUser() {
             <div
                 className={styles.user}
                 onClick={() => setLogout(!logout)}
-                style={{ width: "150px" }}
+                /* style={{ width: "150px" }} */
             >
                 {logout && (
                     <div className={styles.logout} onClick={userLogout}>

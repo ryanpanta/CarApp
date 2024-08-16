@@ -19,3 +19,11 @@
 .header svg {
     filter: invert(1);
 }
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 40px;
+    }
+}

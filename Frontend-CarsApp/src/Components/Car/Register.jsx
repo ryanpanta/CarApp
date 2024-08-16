@@ -24,7 +24,6 @@ function Register() {
                 );
                 const data = await response.json();
                 setMakers(data.dados);
-                
             } catch (error) {
                 console.error("Erro ao buscar os fabricantes:", error);
             }
@@ -37,7 +36,6 @@ function Register() {
                 );
                 const data = await response.json();
                 setCarTypes(data.dados);
-                
             } catch (error) {
                 console.error("Erro ao buscar os fabricantes:", error);
             }
@@ -68,6 +66,12 @@ function Register() {
                         "& .MuiInputBase-input": {
                             fontSize: "1.6rem",
                         },
+                        "@media (max-width: 500px)": {
+                            width: "300px", 
+                        },
+                        "@media (max-width: 390px)": {
+                            width: "250px", 
+                        },
                     },
                 },
             },
@@ -75,6 +79,12 @@ function Register() {
                 styleOverrides: {
                     inputRoot: {
                         fontSize: "1.6rem",
+                        "@media (max-width: 500px)": {
+                            width: "300px", 
+                        },
+                        "@media (max-width: 390px)": {
+                            width: "250px", 
+                        },
                     },
                     endAdornment: {
                         fontSize: "1.2rem",
@@ -85,9 +95,7 @@ function Register() {
                 },
             },
         },
-    });
-
-   /*  const [newCar, setNewCar] = React.useState({
+    }); /*  const [newCar, setNewCar] = React.useState({
         fabricanteId: 0,
         tipoVeiculoId: 0,
     }); */
@@ -126,13 +134,14 @@ function Register() {
     return (
         <ThemeProvider theme={theme}>
             {/* <CssBaseline /> */}
-            <section>
+            <section className={styles.section}>
                 <HeaderUser />
                 <h1 className="titulo">Cadastro de carros</h1>
                 <div className={styles.container}>
                     <form onSubmit={handleSubmit}>
                         <TextField
                             id="outlined-basic"
+                            className={styles.input}
                             sx={{ width: 400 }}
                             label="Modelo"
                             error={modelo.error}
