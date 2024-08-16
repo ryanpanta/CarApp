@@ -307,7 +307,7 @@ function List() {
                             <p>Vamos começar adiciando um</p>
                             <Link to="/carros/cadastro">
                                 <Button
-                                    text="Cadastrar um veículo"
+                                    text="Editar o veículo"
                                     variant="primary"
                                 ></Button>
                             </Link>

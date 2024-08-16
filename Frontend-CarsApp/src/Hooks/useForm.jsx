@@ -6,7 +6,7 @@ const types = {
         message: "Preencha um email válido"
     },
     senha: {
-        regex: /^\d{6,}$/,
+        regex: /^.{6,}$/,
         message: 'Deve conter no mínino 6 caracteres' 
     }
 

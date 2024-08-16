@@ -4,12 +4,12 @@ export const UserContext = React.createContext();
 
 export function UserStorage({ children }) {
     const [data, setData] = React.useState(null);
-    const [loading, setLoading] = React.useState(false);
+    const [loadingData, setLoadingData] = React.useState(false);
     const navigate = useNavigate();
 
     const userLogout = React.useCallback(() => {
         setData(null);
-        setLoading(false);
+        setLoadingData(false);
         localStorage.removeItem("userData"); 
         document.cookie = ".AspNetCore.Session=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/;";
         navigate("/");
@@ -17,7 +17,7 @@ export function UserStorage({ children }) {
 
     async function userLogin(email, password) {
         try {
-            setLoading(true);
+            setLoadingData(true);
             const response = await fetch(
                 "https://localhost:7017/api/User/login",
                 {
@@ -38,7 +38,7 @@ export function UserStorage({ children }) {
         } catch (error) {
             console.error("Erro ao fazer o login", error);
         } finally {
-            setLoading(false);
+            setLoadingData(false);
         }
     }
 
@@ -51,7 +51,7 @@ export function UserStorage({ children }) {
     }, []);
 
     return (
-        <UserContext.Provider value={{ userLogin, data, loading, userLogout }}>
+        <UserContext.Provider value={{ userLogin, data, loadingData, userLogout }}>
             {children}
         </UserContext.Provider>
     );

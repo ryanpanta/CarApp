@@ -5,12 +5,17 @@ import Button from "../Form/Button";
 import { Link, useNavigate } from "react-router-dom";
 import useForm from "../../Hooks/useForm";
 import Loading from "../Helper/Loading";
+import { toast } from "react-toastify";
+import UserContext from "../../UserContext";
+
 function LoginCreate({setLoading}) {
     const nome = useForm("");
     const email = useForm("email");
     const senha = useForm("senha");
 
     const navigate = useNavigate();
+
+    const { userLogin } = React.useContext(UserContext);
 
     async function handleSubmit(event) {
         event.preventDefault();
@@ -29,7 +34,11 @@ function LoginCreate({setLoading}) {
                 credentials: "include",
                 body: JSON.stringify(userData),
             });
-            if (response.ok) navigate("/carros/lista");
+            if (response.ok) {
+                toast.success("Cadastro realizado com sucesso!");
+                userLogin(email.value, senha.value);
+                navigate("/carros/lista");
+            }
             const data = await response.json();
             console.log(data);
         } catch (error) {
